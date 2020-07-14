@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    font-family: tahoma;
+    font-size: 14px;
+    width: 1600px;
+    background: #fff;
+}
+
+#header{
+    background: #80b435;
+    height: 80px;
+}
+
+#header ul{
+    margin: 0px;
+    padding: 0px;
+}   
+
+#header ul .logo{
+    float: left;
+    margin-top: 10px;
+    margin-left: 230px;
+    margin-right: 170px;
+}
+
+#header ul li{
+    list-style: none;
+    float: left;
+}
+
+#header ul li a{
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    height: 80px;
+    line-height: 80px;
+    padding: 0 30px 0 0;
+}
+
+#slider{
+    background: #ccc;
+    height: 545px;
+}
+
+#content .category{
+    margin-left: 155px;
+    height: 350px;
+}
+
+#content .category .category-img{
+    float: left;
+    margin: 50px 0 0 45px;
+}
+
+#content .new_product{
+    background: #80b435;
+    height: 640px;
+}
+
+#content .handbook{
+    height: 580px;
+}
+
+#footer{
+    height: 300px;
+    background: #80b435;
+}
