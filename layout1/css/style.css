@@ -2,7 +2,7 @@ body{
     margin: 0;
     font-family: tahoma;
     font-size: 14px;
-    width: 1600px;
+    width: 100%;
     background: #fff;
 }
 
@@ -35,26 +35,55 @@ body{
     height: 80px;
     line-height: 80px;
     padding: 0 30px 0 0;
+    font-size: 18px;
 }
 
 #slider{
-    background: #ccc;
+    background: #fff url(../img/slider.png) no-repeat;
     height: 545px;
 }
 
 #content .category{
-    margin-left: 155px;
     height: 350px;
+    background: #fff;
 }
 
-#content .category .category-img{
+#content .category ul li{
+    width: 363px; 
+    height: 250px; 
+    background-repeat: no-repeat;
     float: left;
-    margin: 50px 0 0 45px;
+    list-style: none;
+    margin: 50px 10px 0px 80px;
+    background-position: center top;
+   
 }
+
+#content .category ul li h2{
+    color: black;
+    text-align: center;
+    margin-top: 145px;
+    margin-bottom: auto;
+    background: #F5F5F5;
+    opacity: 0.7;
+    width: 205px;
+    height: 45px;
+    margin-left: 80px;
+    padding-top: 20px;
+}
+
 
 #content .new_product{
+    margin: 0;
+    padding: 0;
     background: #80b435;
     height: 640px;
+}
+
+#content .new_product h1{
+    text-align: center;
+    float: left;
+    margin-left: 38.5%;
 }
 
 #content .handbook{
