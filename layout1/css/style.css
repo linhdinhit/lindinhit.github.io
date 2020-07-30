@@ -123,7 +123,7 @@ body{
     padding-top: 10px;
 
 }
-/* tiếp tục tại đây */
+
 #content .handbook{
     margin: 0;
     padding: 0;
@@ -177,6 +177,38 @@ body{
 }
 
 #footer{
-    height: 300px;
+    margin: 0;
+    padding: 0;
+    height: 250px;
     background: #80b435;
+}
+
+#footer ul li .ft-information{
+    font-family: Arial, Helvetica, sans-serif ;
+    float: left;
+    height: 250px;
+    width: 370px;
+    color: #fff;
+}
+
+#footer ul {
+    margin-left: 130px;
+}
+
+#footer ul li {
+    float: left;
+    list-style: none;
+    margin-right: 35px;
+}
+
+#footer ul li h2{
+    font-size: 20px;
+    padding-top: 35px;
+    padding-bottom: 15px;
+}
+
+#footer ul li p{
+    font-size: 15px;
+    word-wrap: break-word;
+    font-weight: normal; 
 }
