@@ -4,142 +4,235 @@
         <meta charset="UTF-8">
         <title>layout 1</title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
         <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
     </head>
-    <body>    
+    <body>
         <div id="header">
-            <ul>
-                <a href="index.html"><img class="logo" src="img/logo.jpg"></a>
-                <li><a href="#" title="Trang chủ">TRANG CHỦ</a></li>
-                <li><a href="#" title="Thịt tươi">THỊT TƯƠI</a></li>
-                <li><a href="#" title="Rau sạch">RAU SẠCH</a></li>
-                <li><a href="#" title="Cua ngọt">CUA NGỌT</a></li>
-                <li><a href="#" title="Cẩm nang">CẨM NANG</a></li>
-                <li><a href="#" title="liên hệ">LIÊN HỆ</a></li>
-                <li><a href="#" title="Thanh toán">THANH TOÁN</a></li>
-                <li style="margin-left: 40px;"><a href="#" title="Tìm kiếm"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                <li><a href="#" title="Giỏ hàng"><i class="fa fa-shopping-basket" aria-hidden="true" ></i></a></li>
-            </ul>
-        </div>
-        <div id="slider">
-        </div>
-        <div id="content">
-            <div class="category">
-                <ul>
-                    <a href="#"><li style="background-image: url(img/images/new1.png);"><h2>THỰC PHẨM</h2></li></a>
-                    <a href="#"><li style="background-image: url(img/images/new2.png);"><h2>RAU SẠCH</h2></li></a>
-                    <a href="#"><li style="background-image: url(img/images/new3.png);"><h2>TRÁI CÂY</h2></li></a>
-                </ul>
-            </div>
-            <div class="new_product">
-                <h1 style="line-height: 2; color: #fff;">THỰC PHẨM MỚI NHẤT<br>
-                    <i  class="fa fa-pagelines" aria-hidden="true" style="font-size: 40px; opacity: 0.8;"></i>
-                </h1>
-                <div class="information">
-                    <ul>
-                        <li style="background-image: url(img/images/new2_03.png);">
-                            <p>
-                                <a href="#" title="thông tin chi tiết"><strong style="font-size: 20px;">Xà lách Lâm Đồng</strong><br></a>
-                                <i style="font-size: 16px;"><b>25.000 VND</b></i><br>
-                                <a href="#" title="thêm vào giỏ hàng" style="color: red;"><b>Thêm vào giỏ hàng</b></a>
-                            </p>
-                        </li>
-                        <li style="background-image: url(img/images/new2_05.png);">
-                            <p>
-                                <a href="#" title="thông tin chi tiết"><strong style="font-size: 20px;">Dẻ sường bò Úc</strong><br></a>
-                                <i style="font-size: 16px;"><b>250.000 VND</b></i><br>
-                                <a href="#" title="thêm vào giỏ hàng" style="color: red;"><b>Thêm vào giỏ hàng</b></a>
-                            </p>
-                        </li>
-                        <li style="background-image: url(img/images/new2_07.png);">
-                            <p>
-                                <a href="#" title="thông tin chi tiết"><strong style="font-size: 20px;">Nho đen Mỹ</strong><br></a>
-                                <i style="font-size: 16px;"><b>100.000 VND</b></i><br>
-                                <a href="#" title="thêm vào giỏ hàng" style="color: red;"><b>Thêm vào giỏ hàng</b></a>
-                            </p>
-                        </li>
-                        <li style="background-image: url(img/images/new2_09.png);">
-                            <p>
-                                <a href="#" title="thông tin chi tiết"><strong style="font-size: 20px;">Ngao trắng</strong><br></a>
-                                <i style="font-size: 16px;"><b>75.000 VND</b></i><br>
-                                <a href="#" title="thêm vào giỏ hàng" style="color: red;"><b>Thêm vào giỏ hàng</b></a>
-                            </p>
-                        </li>
-                    </ul>                    
+            <div class="wrapper-header container">
+                <div class="logo">
+                    <a href="index.html"><img class="logo" src="img/logo.jpg"></a>
                 </div>
-            </div>
-            <div class="handbook">
-                <p>
-                    <b>CẨM NANG NẤU ĂN<b><br>
-                    <i class="fa fa-book" aria-hidden="true" style="color: #34465C; font-size: 45px; opacity: 0.7; margin-top: 10px;"></i>
-                </p>
-                <div class="hb-information">
+                <div class="menu">
                     <ul>
                         <li>
-                            <div class="hb-img">
-                                <img src="./img/images/handbook_03.png">
-                                <h2><a href="#" title="chi tiết">Thịt bò hầm cỏ Mỹ</a></h2>
-                                <p>Chúng ta cần phải có một đoạn văn dễ nhìn
-                                    cũng như dễ đọc, vì chữ mà xấu quá thì đọc không ra, 
-                                    chúng ta cần phải có một đoạn văn dễ nhìn
-                                    <span><a href="#" title="đọc thêm" style="text-decoration: none;">[...]</a></span>
-                                </p>    
-                            </div>
-                        </li>
-                         <li>
-                            <div class="hb-img">
-                                <img src="./img/images/handbook_05.png">
-                                <h2><a href="#" title="chi tiết">Cục lết vịt bửa đôi</a></h2>
-                                <p>Chúng ta cần phải có một đoạn văn dễ nhìn 
-                                    cũng như dễ đọc, vì chữ mà xấu quá thì đọc không ra,
-                                    chúng ta cần phải có một đoạn văn dễ nhìn
-                                    <span><a href="#" title="đọc thêm" style="text-decoration: none;">[...]</a></span>
-                                </p>    
-                            </div>
+                            <a href="#" title="Trang chủ">TRANG CHỦ</a>
                         </li>
                         <li>
-                            <div class="hb-img">
-                                <img src="./img/images/handbook_07.png">
-                                <h2><a href="#" title="chi tiết">Cần sa cuốn diềm gà</a></h2>
-                                <p>Chúng ta cần phải có một đoạn văn dễ nhìn 
-                                    cũng như dễ đọc, vì chữ mà xấu quá thì đọc không ra, 
-                                    chúng ta cần phải có một đoạn văn dễ nhìn
-                                    <span><a href="#" title="đọc thêm" style="text-decoration: none;">[...]</a></span>
-                                </p>    
-                            </div>
+                            <a href="#" title="Thịt tươi">THỊT TƯƠI</a>
+                        </li>
+                        <li>
+                            <a href="#" title="Rau sạch">RAU SẠCH</a>
+                        </li>
+                        <li>
+                            <a href="#" title="Cua ngọt">CUA NGỌT</a>
+                        </li>
+                        <li>
+                            <a href="#" title="Cẩm nang">CẨM NANG</a>
+                        </li>
+                        <li>
+                            <a href="#" title="liên hệ">LIÊN HỆ</a>
+                        </li>
+                        <li>
+                            <a href="#" title="Thanh toán">THANH TOÁN</a>
+                        </li>
+                        <li style="margin-left: 40px;">
+                            <a href="#" title="Tìm kiếm">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Giỏ hàng">
+                                <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                            </a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div id="footer">
-            <ul>
-                <li>
-                    <div class="ft-information">
-                        <h2>Trụ sở chính:</h2>
-                        <p>Số 6A8A, Thanh Xuân Bắc, Phường Thanh Xuân Bắc, Quận Thanh Xuân, Thành phố Hà Nội.</p>
-                        <p>Điện thoại: 12.3456.7890</p>
-                        <p>Fax: 09.8765.4321</p>
-                    </div>
-                </li>
-                <li>
-                    <div class="ft-information">
-                        <h2>Chi nhánh Đà Nẵng:</h2>
-                        <p>Số 6A8A, Thanh Xuân Bắc, Phường Thanh Xuân Bắc, Quận Thanh Xuân, Thành phố Hà Nội.</p>
-                        <p>Điện thoại: 12.3456.7890</p>
-                        <p>Fax: 09.8765.4321</p>
-                    </div>
-                </li>
-                <li>
-                    <div class="ft-information">
-                        <h2>Chi nhánh Hồ Chí Minh:</h2>
-                        <p>Số 6A8A, Thanh Xuân Bắc, Phường Thanh Xuân Bắc, Quận Thanh Xuân, Thành phố Hà Nội.</p>
-                        <p>Điện thoại: 12.3456.7890</p>
-                        <p>Fax: 09.8765.4321</p>
-                    </div>
-                </li>
-            </ul>
+        <div id="slider"></div>
+        <div id="content">
+            <div class="category">
+                <div class="container">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="img/images/new1.png" alt="thực phẩm">
+                                <h2>THỰC PHẨM</h2>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/images/new2.png" alt="rau sạch">
+                                <div class="category-name">
+                                    <h2>RAU SẠCH</h2>
+                                </div>
+                            </a>
+                        </li>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/images/new3.png" alt="trái cây">
+                            <h2>TRÁI CÂY</h2>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="end"><p style="text-align: center; font-weight: normal; opacity: 0.7;">Copyright © 2016 - All rights reserved</p></div>
+        <div class="new-product">
+            <div class="container">
+                <h1>THỰC PHẨM MỚI NHẤT<br>
+                    <i class="fa fa-pagelines" aria-hidden="true" style="font-size: 40px; opacity: 0.8;"></i>
+                </h1>
+                <div class="information">
+                    <ul>
+                        <li>
+                            <div class="product-thumb">
+                                <img src="img/images/new2_03.png" alt="Xà lách Lâm Đồng">
+                            </div>
+                            <p>
+                                <a href="#" title="thông tin chi tiết">
+                                    <strong style="font-size: 20px;">Xà lách Lâm Đồng</strong><br></a>
+                                <i style="font-size: 16px;">
+                                    <b>25.000 VND</b>
+                                </i><br>
+                                <a href="#" title="thêm vào giỏ hàng" style="color: red;">
+                                    <b>Thêm vào giỏ hàng</b>
+                                </a>
+                            </p>
+                        </li>
+                        <li>
+                            <div class="product-thumb">
+                                <img src="img/images/new2_05.png" alt="Dẻ Sường Bò Úc">
+                            </div>
+                            <p>
+                                <a href="#" title="thông tin chi tiết">
+                                    <strong style="font-size: 20px;">Dẻ sường bò Úc</strong><br></a>
+                                <i style="font-size: 16px;">
+                                    <b>250.000 VND</b>
+                                </i><br>
+                                <a href="#" title="thêm vào giỏ hàng" style="color: red;">
+                                    <b>Thêm vào giỏ hàng</b>
+                                </a>
+                            </p>
+                        </li>
+                        <li>
+                            <div class="product-thumb">
+                                <img src="img/images/new2_07.png" alt="Nho đen Mỹ">
+                            </div>
+                            <p>
+                                <a href="#" title="thông tin chi tiết">
+                                    <strong style="font-size: 20px;">Nho đen Mỹ</strong><br></a>
+                                <i style="font-size: 16px;">
+                                    <b>100.000 VND</b>
+                                </i><br>
+                                <a href="#" title="thêm vào giỏ hàng" style="color: red;">
+                                    <b>Thêm vào giỏ hàng</b>
+                                </a>
+                            </p>
+                        </li>
+                        <li>
+                            <div class="product-thumb">
+                                <img src="img/images/new2_09.png" alt="Ngao trắng">
+                            </div>
+                            <p>
+                                <a href="#" title="thông tin chi tiết">
+                                    <strong style="font-size: 20px;">Ngao trắng</strong><br></a>
+                                <i style="font-size: 16px;">
+                                    <b>75.000 VND</b>
+                                </i><br>
+                                <a href="#" title="thêm vào giỏ hàng" style="color: red;">
+                                    <b>Thêm vào giỏ hàng</b>
+                                </a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="handbook">
+            <div class="container">
+                <div class="cooking-handbook">
+                    <h2>CẨM NANG NẤU ĂN</h2>
+                    <i class="fa fa-book" aria-hidden="true"></i>
+                </div>
+
+                <div class="hb-information">
+                    <ul>
+                        <li>
+                            <div class="hb-img">
+                                <img src="./img/images/handbook_03.png">
+                                <h2>
+                                    <a href="#" title="chi tiết">Thịt bò hầm cỏ Mỹ</a>
+                                </h2>
+                                <p>Chúng ta cần phải có một đoạn văn dễ nhìn
+                                                                                                                                                                                                                                                                                                                                                                                                                                                    cũng như dễ đọc, vì chữ mà xấu quá thì đọc không ra, 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                    chúng ta cần phải có một đoạn văn dễ nhìn
+                                    <span>
+                                        <a href="#" title="đọc thêm" style="text-decoration: none;">[...]</a>
+                                    </span>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="hb-img">
+                                <img src="./img/images/handbook_05.png">
+                                <h2>
+                                    <a href="#" title="chi tiết">Cục lết vịt bửa đôi</a>
+                                </h2>
+                                <p>Chúng ta cần phải có một đoạn văn dễ nhìn 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                    cũng như dễ đọc, vì chữ mà xấu quá thì đọc không ra,
+                                                                                                                                                                                                                                                                                                                                                                                                                                                    chúng ta cần phải có một đoạn văn dễ nhìn
+                                    <span>
+                                        <a href="#" title="đọc thêm" style="text-decoration: none;">[...]</a>
+                                    </span>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="hb-img">
+                                <img src="./img/images/handbook_07.png">
+                                <h2>
+                                    <a href="#" title="chi tiết">Cần sa cuốn diềm gà</a>
+                                </h2>
+                                <p>Chúng ta cần phải có một đoạn văn dễ nhìn 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                    cũng như dễ đọc, vì chữ mà xấu quá thì đọc không ra, 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                    chúng ta cần phải có một đoạn văn dễ nhìn
+                                    <span>
+                                        <a href="#" title="đọc thêm" style="text-decoration: none;">[...]</a>
+                                    </span>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </p>
     </body>
-</html>
+</html></div></div><div id="footer"><div class="container">
+<ul>
+    <li>
+        <div class="ft-information">
+            <h2>Trụ sở chính:</h2>
+            <p>Số 6A8A, Thanh Xuân Bắc, Phường Thanh Xuân Bắc, Quận Thanh Xuân, Thành phố Hà Nội.</p>
+            <p>Điện thoại: 12.3456.7890</p>
+            <p>Fax: 09.8765.4321</p>
+        </div>
+    </li>
+    <li>
+        <div class="ft-information">
+            <h2>Chi nhánh Đà Nẵng:</h2>
+            <p>Số 6A8A, Thanh Xuân Bắc, Phường Thanh Xuân Bắc, Quận Thanh Xuân, Thành phố Hà Nội.</p>
+            <p>Điện thoại: 12.3456.7890</p>
+            <p>Fax: 09.8765.4321</p>
+        </div>
+    </li>
+    <li>
+        <div class="ft-information">
+            <h2>Chi nhánh Hồ Chí Minh:</h2>
+            <p>Số 6A8A, Thanh Xuân Bắc, Phường Thanh Xuân Bắc, Quận Thanh Xuân, Thành phố Hà Nội.</p>
+            <p>Điện thoại: 12.3456.7890</p>
+            <p>Fax: 09.8765.4321</p>
+        </div>
+    </li>
+</ul></div></div><div class="end"><p style="text-align: center; font-weight: normal; opacity: 0.7;">Copyright © 2016 - All rights reserved</p></div></body></body></html>
